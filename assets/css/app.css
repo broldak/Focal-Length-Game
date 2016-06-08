@@ -110,9 +110,10 @@ button {
 
 .photo-wrap {
   background: #DADCDC;
-  background-size: cover;
+  background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
   height: 320px;
-  background-position: left;
 }
 
 .photo-wrap.hidden {
